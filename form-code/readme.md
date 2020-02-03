@@ -25,4 +25,12 @@ Here is the format(It's JSON):
 ```
 
 Explaination of the JSON object above:
-* *type* is the type of the
+* *type* is the type of the element we wish to add in the form
+   * textbox
+   * password-box
+   * option-box
+   * button
+   * *multi-line*: a multiline textbox, textarea in HTML terms 
+  We have to put the type typed exactly as typed above. Don't try to be smart and use things like "input" for textbox as in HTML, it will not work.
+* *can_be_empty* indicates if the user is allowed not to fill this element when filling in the form.
+* *atrributes*: Attributes of the elements in the actual HTML sense. Please note that the 
